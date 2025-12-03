@@ -1,18 +1,34 @@
 # ITAI-2373: Natural Language Processing
 
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
+[![NLTK](https://img.shields.io/badge/NLTK-Natural%20Language%20Toolkit-green.svg)](https://www.nltk.org/)
+[![spaCy](https://img.shields.io/badge/spaCy-NLP-blue.svg)](https://spacy.io/)
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange.svg)](https://scikit-learn.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)](https://reactjs.org/)
+
 ## Course Overview
 
 This course explores the theory and practice of Natural Language Processing (NLP), covering text analysis, language understanding, sentiment analysis, and conversational AI systems. Projects demonstrate proficiency in text preprocessing, feature extraction, classification, and building intelligent language-driven applications.
 
+### What You'll Find Here
+
+- **1 Full-Stack NLP Web Application** (NuVision News) with screenshots and deployment
+- **3 Comprehensive Jupyter Notebooks** covering core NLP techniques
+- **Production-Ready Code** with real-world text analysis implementations
+- **Sentiment Analysis** using VADER and custom classifiers
+- **Named Entity Recognition** for information extraction
+- **Text Classification** with machine learning models
+
 ## Key Learning Outcomes
 
-- Text Preprocessing & Tokenization
-- Feature Extraction (TF-IDF, Word Embeddings)
-- Sentiment Analysis & Classification
-- Named Entity Recognition (NER)
-- Language Models & Text Generation
-- News Analysis & Information Retrieval
-- Conversational AI Development
+✅ **Text Preprocessing & Tokenization** - Cleaning, normalizing, and structuring text data  
+✅ **Feature Extraction** - TF-IDF vectorization and word embeddings  
+✅ **Sentiment Analysis & Classification** - Understanding opinion and emotion in text  
+✅ **Named Entity Recognition (NER)** - Extracting people, places, organizations  
+✅ **Language Models** - Understanding context and generating text  
+✅ **News Analysis** - Real-time processing of news articles  
+✅ **Conversational AI Development** - Building intelligent chat systems
 
 ## Course Projects
 
@@ -32,20 +48,36 @@ A modern web application that aggregates news, performs sentiment analysis, and 
 
 ---
 
-### 2. Lab Notebooks
+### 2. 📓 Lab Notebooks
 
-#### [L04: Text Preprocessing & Feature Extraction](./L04_DeMarcusCrump_ITAI_2373.ipynb)
+#### 🔤 [L04: Text Preprocessing & Feature Extraction](./L04_DeMarcusCrump_ITAI_2373.ipynb)
 **Focus:** Fundamental NLP preprocessing techniques and feature engineering
 
-**Topics Covered:**
-- Text cleaning and normalization
-- Tokenization strategies
-- Stop word removal
-- Stemming and lemmatization
-- TF-IDF vectorization
-- Feature extraction methods
+**What's Inside:**
+A comprehensive notebook covering the entire NLP pipeline from raw text to machine-readable features. Includes extensive text cleaning, multiple tokenization approaches, and advanced feature extraction techniques with real-world datasets.
 
-**Key Techniques:** NLTK, Regular Expressions, Scikit-learn preprocessing
+**Topics Covered:**
+- 🧹 Text cleaning and normalization (lowercase, punctuation, special characters)
+- ✂️ Tokenization strategies (word, sentence, n-gram)
+- 🛑 Stop word removal and custom stop lists
+- 🌱 Stemming (Porter, Snowball) and lemmatization (WordNet)
+- 📊 TF-IDF vectorization for document representation
+- 🔢 Feature extraction methods (Bag of Words, n-grams)
+- 📈 Frequency distribution analysis
+- 🎯 Corpus statistics and vocabulary analysis
+
+**Key Techniques:** 
+- **NLTK** - Tokenization, stemming, lemmatization, stop words
+- **Regular Expressions** - Pattern matching and text extraction
+- **Scikit-learn** - TF-IDF vectorizers and preprocessing utilities
+- **Pandas** - Data manipulation and analysis
+- **Matplotlib/Seaborn** - Visualization of word frequencies and distributions
+
+**Outputs Include:**
+- Word frequency distributions and bar charts
+- TF-IDF matrices with top terms per document
+- Comparison of stemming vs lemmatization results
+- Vocabulary size analysis before/after preprocessing
 
 ---
 

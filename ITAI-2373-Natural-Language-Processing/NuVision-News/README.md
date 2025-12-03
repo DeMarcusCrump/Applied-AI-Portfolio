@@ -14,6 +14,26 @@
 
 ---
 
+## 📸 Screenshots
+
+### Homepage - News Feed
+![NuVision News Homepage](screenshots/homepage.png)
+*Modern news aggregation interface with sentiment analysis, category tags, and conversational search powered by NLP*
+
+### Article Reader View
+![Article View](screenshots/article-view.png)
+*Clean reading experience with sentiment badges, keyword extraction, and related article clustering*
+
+### Deep Dive Analytics
+![Deep Dive Mode](screenshots/deep-dive.png)
+*Advanced NLP analysis featuring knowledge graphs, entity relationships, and event timeline extraction*
+
+### Bias Radar Analysis
+![Bias Radar](screenshots/bias-radar.png)
+*Multi-dimensional bias detection analyzing political lean, emotional tone, source diversity, and factual density*
+
+---
+
 ## 🎓 Academic Project Structure
 
 This repository contains both **Midterm** and **Final** project deliverables for ITAI 2373, showing the **evolution from Python notebook to NuVision News web application**:

@@ -11,23 +11,23 @@
 ## 📸 Screenshots
 
 ### Homepage - Welcome to Aura Intelligence
-![Aura Intelligence Homepage](screenshots/Screenshot%202025-12-02%20at%207.39.14%20PM.png)
+![Aura Intelligence Homepage](screenshots/homepage.png)
 *Elegant landing page introducing the dual-mode AI platform for fragrance marketing*
 
 ### Storyteller Mode - AI Content Generation
-![Storyteller Mode](screenshots/Screenshot%202025-12-02%20at%207.40.00%20PM.png)
+![Storyteller Mode](screenshots/storyteller-mode.png)
 *4-step guided workflow for generating luxury fragrance descriptions powered by Llama 3.3 70B*
 
 ### Curator Mode - AI Fragrance Assistant
-![Curator Mode](screenshots/Screenshot%202025-12-02%20at%207.40.14%20PM.png)
+![Curator Mode](screenshots/curator-mode.png)
 *Conversational AI assistant with real-time web search for personalized fragrance recommendations*
 
 ### Science of Scent - Educational Content
-![Science Page](screenshots/Screenshot%202025-12-02%20at%207.40.32%20PM.png)
+![Science Page](screenshots/science-page.png)
 *Neuroscience-backed insights on olfactory marketing and scent psychology*
 
 ### AI Lab - Multi-Agent System
-![AI Lab](screenshots/Screenshot%202025-12-02%20at%207.40.47%20PM.png)
+![AI Lab](screenshots/ai-lab.png)
 *Advanced marketing tools featuring customer persona analysis and A/B testing capabilities*
 
 ---

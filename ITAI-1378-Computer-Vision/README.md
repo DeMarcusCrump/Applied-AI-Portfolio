@@ -11,25 +11,47 @@ This course covers fundamental and advanced computer vision concepts, including 
 
 ### What You'll Find Here
 
+- **1 Full-Scale Object Detection Project** (Workplace Safety PPE Detection System)
 - **2 Comprehensive Jupyter Notebooks** with complete implementations and visualizations
 - **CNN Architectures** built from scratch and using transfer learning
-- **Real-world Image Classification** projects with model evaluation
+- **Real-world Image Classification & Object Detection** projects with model evaluation
 - **Data Augmentation Strategies** for improving model performance
 - **Transfer Learning** implementations using VGG, ResNet, and MobileNet
+- **YOLOv8 Object Detection** for real-time safety equipment detection
 
 ## Key Learning Outcomes
 
-✅ **Image Processing & Enhancement** - Preprocessing pipelines for neural networks  
-✅ **Feature Detection & Extraction** - Identifying meaningful patterns in images  
-✅ **Convolutional Neural Networks (CNNs)** - Building and training from scratch  
-✅ **Image Classification** - Multi-class prediction with high accuracy  
-✅ **Object Detection & Recognition** - Identifying and localizing objects  
-✅ **Transfer Learning** - Leveraging pre-trained models for new tasks  
-✅ **Model Training & Optimization** - Hyperparameter tuning and regularization
+- **Image Processing & Enhancement** - Preprocessing pipelines for neural networks  
+- **Feature Detection & Extraction** - Identifying meaningful patterns in images  
+- **Convolutional Neural Networks (CNNs)** - Building and training from scratch  
+- **Image Classification** - Multi-class prediction with high accuracy  
+- **Object Detection & Recognition** - Identifying and localizing objects  
+- **Transfer Learning** - Leveraging pre-trained models for new tasks  
+- **Model Training & Optimization** - Hyperparameter tuning and regularization
 
-## 📓 Lab Notebooks
+## Course Projects
 
-### 🎯 [L04: Computer Vision Fundamentals](./L04_DeMarcusCrump_ITAI_1378.ipynb)
+### 1. [Workplace Safety PPE Detection System](./Workplace-Safety-PPE-Detection-System/)
+**Real-Time Object Detection for Safety Compliance**
+
+A production-ready computer vision system that detects Personal Protective Equipment (PPE) in workplace environments using YOLOv8 object detection.
+
+**Technologies:** Python, YOLOv8, OpenCV, PyTorch  
+**Key Features:**
+- Real-time detection of 10 PPE classes (hard hats, safety vests, gloves, goggles, etc.)
+- Custom-trained YOLOv8 model with transfer learning
+- Comprehensive evaluation metrics and visualizations
+- Team project with complete documentation and presentations
+
+**Project Type:** Object detection system with custom dataset and model training
+
+**See:** [Workplace-Safety-PPE-Detection-System/README.md](./Workplace-Safety-PPE-Detection-System/README.md) for complete details.
+
+---
+
+### 2. Lab Notebooks
+
+### [L04: Computer Vision Fundamentals](./L04_DeMarcusCrump_ITAI_1378.ipynb)
 
 **Focus:** Core computer vision techniques and CNN architectures for image classification
 
@@ -37,13 +59,13 @@ This course covers fundamental and advanced computer vision concepts, including 
 This comprehensive notebook demonstrates the complete workflow of building, training, and evaluating CNN models for image classification tasks. It includes both custom architectures and transfer learning approaches, with extensive visualizations of model performance.
 
 **Topics Covered:**
-- 📥 Image loading, preprocessing, and normalization
-- 🎨 Data augmentation techniques (rotation, flip, zoom, shift)
-- 🏗️ CNN architecture design and implementation
-- ⚙️ Model compilation, training, and validation
-- 🔄 Transfer learning with pre-trained models (VGG, ResNet, MobileNet)
-- 📊 Model evaluation with confusion matrices and metrics
-- 📈 Training history visualization (accuracy/loss curves)
+- Image loading, preprocessing, and normalization
+- Data augmentation techniques (rotation, flip, zoom, shift)
+- CNN architecture design and implementation
+- Model compilation, training, and validation
+- Transfer learning with pre-trained models (VGG, ResNet, MobileNet)
+- Model evaluation with confusion matrices and metrics
+- Training history visualization (accuracy/loss curves)
 
 **Techniques Implemented:**
 - **Convolutional Neural Networks** - Custom architectures with conv, pool, and dense layers
@@ -64,7 +86,7 @@ This comprehensive notebook demonstrates the complete workflow of building, trai
 
 ---
 
-### 🚀 [L04: Advanced Computer Vision (Extended)](./L04_DeMarcusCrump_ITAI_1378%20(1).ipynb)
+### [L04: Advanced Computer Vision (Extended)](./L04_DeMarcusCrump_ITAI_1378%20(1).ipynb)
 
 **Focus:** Advanced computer vision applications and model optimization techniques
 
@@ -72,13 +94,13 @@ This comprehensive notebook demonstrates the complete workflow of building, trai
 This extended notebook builds on foundational concepts to implement advanced CNN architectures, optimization strategies, and error analysis techniques. It demonstrates production-level model development with emphasis on performance tuning and result interpretation.
 
 **Topics Covered:**
-- 🏗️ Advanced CNN architectures with deeper networks
-- 🎯 Multi-class image classification (10+ classes)
-- 🔧 Model fine-tuning and hyperparameter optimization
-- ⚡ Performance optimization techniques
-- 🔍 Visual analysis of predictions and misclassifications
-- 📉 Error analysis and iterative improvement strategies
-- 💾 Model checkpointing and saving best models
+- Advanced CNN architectures with deeper networks
+- Multi-class image classification (10+ classes)
+- Model fine-tuning and hyperparameter optimization
+- Performance optimization techniques
+- Visual analysis of predictions and misclassifications
+- Error analysis and iterative improvement strategies
+- Model checkpointing and saving best models
 
 **Advanced Techniques:**
 - **Custom CNN Architectures** - Deeper networks with residual connections
@@ -134,9 +156,16 @@ This extended notebook builds on foundational concepts to implement advanced CNN
 
 ```
 ITAI-1378-Computer-Vision/
+├── Workplace-Safety-PPE-Detection-System/     # Object Detection Project
+│   ├── notebooks/                             # Jupyter notebooks (training, evaluation, demo)
+│   ├── models/                                # Trained YOLOv8 models
+│   ├── data/                                  # Dataset and samples
+│   ├── results/                               # Evaluation metrics & visualizations
+│   ├── docs/                                  # Documentation & presentations
+│   └── README.md                              # Project documentation
 ├── L04_DeMarcusCrump_ITAI_1378.ipynb          # Core CV Lab
 ├── L04_DeMarcusCrump_ITAI_1378 (1).ipynb      # Advanced CV Lab
-└── results/                                    # Visualizations & outputs
+└── results/                                    # Lab visualizations & outputs
     └── .gitkeep
 ```
 
@@ -178,17 +207,17 @@ ITAI-1378-Computer-Vision/
 
 ---
 
-## 🏆 Key Achievements
+## Key Achievements
 
-✅ **Built CNN Models from Scratch** - Designed custom architectures with multiple conv/pool layers  
-✅ **Implemented Transfer Learning** - Leveraged VGG16, ResNet50, MobileNetV2 for improved performance  
-✅ **Achieved High Accuracy** - 85%+ accuracy on multi-class image classification tasks  
-✅ **Mastered Data Augmentation** - Increased dataset size 5-10x through transformations  
-✅ **Developed Evaluation Strategies** - Comprehensive metrics including precision, recall, F1-score  
-✅ **Visualized Model Performance** - Training curves, confusion matrices, and prediction samples  
-✅ **Applied Production Techniques** - Model checkpointing, early stopping, and optimization
+- **Built CNN Models from Scratch** - Designed custom architectures with multiple conv/pool layers  
+- **Implemented Transfer Learning** - Leveraged VGG16, ResNet50, MobileNetV2 for improved performance  
+- **Achieved High Accuracy** - 85%+ accuracy on multi-class image classification tasks  
+- **Mastered Data Augmentation** - Increased dataset size 5-10x through transformations  
+- **Developed Evaluation Strategies** - Comprehensive metrics including precision, recall, F1-score  
+- **Visualized Model Performance** - Training curves, confusion matrices, and prediction samples  
+- **Applied Production Techniques** - Model checkpointing, early stopping, and optimization
 
-## 💼 Real-World Applications
+## Real-World Applications
 
 The computer vision techniques demonstrated in these notebooks are applicable to:
 
